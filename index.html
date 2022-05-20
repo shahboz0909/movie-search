@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinolar</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="bg-light">
+  <div class="container">
+  <h2 class="class text-center my-3">Movies</h2>
+  <form class="js-form d-flex align-items-center mb-5 justify-content-center" action="https://echo.htmlacademy.ru" method="POST">
+      <input class="js-input form-control w-25 text-center" type="text" placeholder="search movie" aria-label="label">
+  </form>
+  <ul class="result-list list-unstyled d-flex align-items-center justify-content-center flex-wrap">
+  </ul>
+  </div> 
+
+  <template id="movies-template">
+    <li class="list__item text-center m-4 shadow">
+        <div class="card-body">
+          <h5 class="card-title card-title">"Small Town Saturday Night"</h5>
+          <p class="card-text card-cast">"Chris Pine","Shawn Christian","John Hawkes","Bre Blair","Muse Watson","Robert Pine","Brent Briscoe","Lin Shaye"</p>
+          <p class="card-text card-genres">"Drama"</p>
+          <p class="card-text card-year">2010</p>
+        </div>
+    </li>
+  </template>
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/kinolar.js"></script>
+  <script src="./js/utils.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

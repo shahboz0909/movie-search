@@ -1,0 +1,31 @@
+
+.list__item {
+  width: 400px;
+  height: 350px;
+  border: 3px solid;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 20px;
+  border-color: rgb(8, 208, 8);
+}
+
+.list__item {
+
+
+}
+
+.ganres {
+  color: cornflowerblue;
+}
+.cast {
+  color: rgb(0, 179, 224);
+}
+.title {
+  color: forestgreen;
+}
+.year {
+  color: lightsalmon;
+}
+span {
+  color: black;
+}
